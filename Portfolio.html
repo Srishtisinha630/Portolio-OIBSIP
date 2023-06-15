@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Srishti Sinha</title>
+</head>
+<link rel="stylesheet" href="css/Portfolio.css">
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+        color:white;
+        background:url("https://images.pexels.com/photos/937980/pexels-photo-937980.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+    .left{
+        display:inline-block;
+        position:absolute;
+        left:34px;
+        top:2px;
+    }
+    .mid{
+        border:2px solid white;
+        border-radius: 30px;
+        box-shadow: -7px -5px 10px 10px rgba(18, 225, 236, 0.808);
+        display:block;
+        width:33%;
+        margin:20px auto;
+        cursor: pointer;
+    }
+    .right{
+        position:absolute;
+        display:inline-block;
+        right:34px;
+        top:20px;     
+    }
+    .navbar{
+        display:inline-block;
+    }
+.navbar li{
+    color:white;
+    display:inline-block;
+    padding:5px 5px;
+    margin:10px 10px;
+    font-size:18px;
+}
+.left img{
+    width: 100px;
+    box-shadow: -7px -5px 10px 10px rgba(236, 18, 189, 0.677);
+}
+.right input{
+    border:2px solid black;
+    padding:3px;
+}
+.info{
+    margin:200px;
+}
+.info h1{
+    font-size:65px;
+
+}
+.info h3{
+    font-size:18px;
+    letter-spacing:1px;
+    line-height:24px;
+
+}
+.info span{
+    color:rgb(219, 202, 202);
+    text-shadow: 2px 1px rgb(180, 121, 13);
+}
+.info a{
+    text-decoration: none;
+    background:bisque;
+    color: black;
+    margin:26px 0px;
+    padding:10px 18px;
+    border-radius: 10px;
+    display:inline-block;
+    transition:0.4s ease;
+}
+.info a:hover{
+    background-color: blueviolet;
+}
+.image{
+width:30%;
+height:60%;
+position:absolute;
+right:100px;
+bottom:0px;
+}
+.image img{
+    position:absolute;
+    height:140%;
+    left:40%;
+    transform:translate(-50%);
+    bottom:0px;
+    transition:left 2s ease;
+}
+.image:hover .srishti{
+    left:55%;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color:aliceblue;
+    margin-right: -60px;
+    font-size: 40px;
+}
+.icons ion-icon:hover{
+    color: aqua;
+}
+.container{
+    height:344px;
+    width:100%;   
+    color:black;
+    display:flex;
+    justify-content: space-between;
+   
+}
+.item{
+    width:300px;
+    height:200px;
+    background-color: antiquewhite;
+    margin:10px;
+    padding:3px;
+    text-align: center;
+    
+}
+.container .item h3{
+    font-size: 30px;
+    color:blueviolet;
+    text-shadow: 1px 1px red;
+
+    text-shadow: 0cqh purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item:hover{
+    background-color: rgb(238, 129, 193);
+    box-shadow: 4px 4px 4px 4px aquamarine;
+}
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+           
+<img src="LOGO.png" alt="">
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>My Work</li>
+                <li>Contact</li>
+            </ul>
+
+
+        </div>
+
+        <div class="right">
+            <input type="text" name="search" id="search" placeholder="Search this website">       
+        </div>
+        <div class="info">
+            <h3>Hi,I'm <span>Srishti Sinha</span></h3>
+            <h1><span>WEB DEVELOPER</span></h1>
+            <h3>I develop websites and I am Web Developer from Noida,U.P,India</h3>
+            <a href="#">Hire Me</a>
+        </div>
+        <div class="image">
+            <img src="photo.jpeg" class="srishti">
+        </div>
+        <div class="container">
+            <div class="item" id="item-1"><h3>Web Developer</h3><br>I am a WebDeveloper and I create Websites using HTML,CSS and Javascript</div>
+             <div class="item" id="item-2"><h3>Problem Solving</h3><br>I have done many problems in DSA</div>
+             <div class="item" id="item-3"><h3>Engineering</h3><br>I am pursuing ECE in Jaypee Institute Of Information Technology and I am currently in 2nd year.</div>
+
+        </div>
+        
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+        </div>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>      
+    </header>
+    
+</body>
+</html>
